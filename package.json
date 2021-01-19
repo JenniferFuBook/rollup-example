@@ -1,0 +1,27 @@
+{
+  "name": "rollup-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c -w --environment BUILD:development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-image": "^2.0.6",
+    "postcss": "^8.2.4",
+    "rollup": "^2.36.1",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "amd-loader": "0.0.8",
+    "install": "^0.13.0"
+  }
+}
